@@ -1,0 +1,34 @@
+project:
+  name: "HSS_Lecture"
+  description: "Collection of examples for simulating space weather and plasma physics"
+  homepage: https://vlab.plasmascience.scigap.org/
+  authors:
+    - pjaya001@odu.edu
+    - jjuno@pppl.gov
+    - tenbarge@princeton.edu
+    - smithc11@rpi.edu
+  tags:
+    - Gkeyll
+    - gkyl
+    - 'Plasma Science Virtual Laboratory (VLab)'
+    - 'space weather'
+    - 'plasma physics'
+
+workspace:
+  resources:
+    min_cpu: 4
+    min_mem: 4096
+    min_gpu: 1
+    gpu_mem: 1024
+  model_collection: []
+  data_collection: []
+
+additional_dependencies:
+  modules: []
+  conda:
+    - python=3.11
+    - pip
+  pip:
+    - numpy
+    - matplotlib
+    - postgkyl
