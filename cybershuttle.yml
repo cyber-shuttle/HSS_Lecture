@@ -13,6 +13,7 @@ project:
     - 'Plasma Science Virtual Laboratory (VLab)'
     - 'space weather'
     - 'plasma physics'
+  privacy: PUBLIC
 
 workspace:
   resources:
